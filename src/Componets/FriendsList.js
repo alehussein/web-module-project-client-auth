@@ -18,7 +18,7 @@ export const FriendsList = () => {
             
         })
         .catch(err => console.log(err));
-    });
+    }, []);
 
     return (
      <div className="friendlist">
